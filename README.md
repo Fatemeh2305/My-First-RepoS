@@ -62,12 +62,12 @@ my_flask_app/
             init_db()
             app.run(debug=True)
 
-├── requirements.txt
+├── requirements.txts
 │   └──
         Flask
 
 ├── templates/
-│   ├── base.html
+│   ├── base.htmlk
 │   │   └──
                 <!DOCTYPE html>
                 <html lang="en">

@@ -39,7 +39,7 @@ my_flask_app/
             return render_template("index.html", title="Home")
 
         @app.route("/about")
-        def about():
+        def about():for
             return render_template("about.html", title="About")
 
         @app.route("/contact", methods=["GET", "POST"])

@@ -14,7 +14,7 @@ my_flask_app/
                 db = g._database = sqlite3.connect(DATABASE)
             return db
 
-        @app.teardown_appconte
+        @app.teardown_appcont
         def close_connection(exception):
             db = getattr(g, "_database", None)
             if db is not None:

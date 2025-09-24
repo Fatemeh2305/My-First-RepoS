@@ -67,7 +67,7 @@ my_flask_app/
         Flask
 
 ├── templates/
-│   ├── base.htmlk
+│   ├── base.htmlks
 │   │   └──
                 <!DOCTYPE html>
                 <html lang="en">

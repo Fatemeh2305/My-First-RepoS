@@ -15,6 +15,7 @@ my_flask_app/
             if db is None:
                 db = g._database = sqlite3.connect(DATABASE)
             return 
+            try:
 
         @app.teardown_appconts
         def close_connection(exception):

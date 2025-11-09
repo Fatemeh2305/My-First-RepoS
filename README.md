@@ -21,7 +21,7 @@ my_flask_app/
         def close_connection(exception):
             db = getattr(g, "_database", None)
             if db is not None:
-                db.close()
+                
 
         def init_db():
             with app.app_context():

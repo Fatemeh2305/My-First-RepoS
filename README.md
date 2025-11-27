@@ -9,6 +9,7 @@ my_flask_app/
         DATABASE = "messages.db"
         import jwt
         engine
+        base.htm
 
         def get_db():
             db = getattr(g, "_database", None)

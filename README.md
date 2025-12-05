@@ -10,6 +10,7 @@ my_flask_app/
         import jwt
         engine
         base.htm
+        <head>
 
         def get_db():
             db = getattr(g, "_database", None)

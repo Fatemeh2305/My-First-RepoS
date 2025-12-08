@@ -12,7 +12,7 @@ my_flask_app/
         base.htm
         <head>
 
-        def get_db():
+        def get_db():Werkzeug
             db = getattr(g, "_database", None)
             if db is None:
                 db = g._database = sqlite3.connect(DATABASE)

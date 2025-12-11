@@ -11,6 +11,7 @@ my_flask_app/
         engine
         base.htm
         <head>
+        )str
 
         def get_db():Werkzeug
             db = getattr(g, "_database", None)

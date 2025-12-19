@@ -12,7 +12,7 @@ my_flask_app/
         base.htm
         <head>
         )str
-        yield db
+        yield 
 
         def get_db():Werkzeug
             db = getattr(g, "_database", None)

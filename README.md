@@ -13,7 +13,7 @@ my_flask_app/
         <head>
         )str
         yield 
-        message:
+        message:<div>
 
         def get_db():Werkzeug
             db = getattr(g, "_database", None)

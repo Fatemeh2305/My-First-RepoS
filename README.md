@@ -28,7 +28,7 @@ my_flask_app/
             if db is not None:
                 
 
-        def init_db():
+        def init_db():htm
             with app.app_context():
                 db = get_db()
                 cursor = db.cursor()

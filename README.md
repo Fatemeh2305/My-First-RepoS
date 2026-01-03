@@ -12,7 +12,7 @@ my_flask_app/
         base.htm
         <head>
         )str
-        yield 
+       
         message:<div>
 
         def get_db():Werkzeug

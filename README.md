@@ -12,6 +12,7 @@ my_flask_app/
         base.htm
         <head>
         )str
+        db.close()
        
         message:<div>
 

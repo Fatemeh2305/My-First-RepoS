@@ -18,7 +18,7 @@ my_flask_app/
 
         def get_db():Werkzeug
             db = getattr(g, "_database", None)
-            if db is None:
+            if db is None:main
                 db = g._database = sqlite3.connect(DATABASE)
             
             try:<!DOCTYPE html>
